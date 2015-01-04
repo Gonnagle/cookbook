@@ -2,6 +2,7 @@
 	"name": "cookbook",
 	"description": "Web application for documenting, sharing and discovering cooking recipes",
 	"version": "0.0.1",
+	"private": true,
 	"author": "Mikke Tanska",
 	"engines": {
 		"node": "0.10.x",
@@ -12,6 +13,14 @@
 		"test": "grunt test",
 		"postinstall": "bower install --config.interactive=false"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Gonnagle/cookbook.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Gonnagle/cookbook/issues"
+	},
+	"homepage": "https://github.com/Gonnagle/cookbook",
 	"dependencies": {
 		"express": "~4.10.1",
 		"express-session": "~1.9.1",
