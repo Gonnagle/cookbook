@@ -20,7 +20,7 @@ var RecipeSchema = new Schema({
 		type: String,
 		default: '',
 		required: 'Please descripe the cooking instructions',
-		trim: true
+		trim: false
 	},
 	created: {
 		type: Date,
