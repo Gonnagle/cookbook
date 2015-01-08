@@ -6,6 +6,6 @@ angular.module('recipes').run(['Menus',
 		// Set top bar menu items
 		Menus.addMenuItem('topbar', 'Recipes', 'recipes', 'dropdown', '/recipes(/create)?');
 		Menus.addSubMenuItem('topbar', 'recipes', 'List Recipes', 'recipes');
-		Menus.addSubMenuItem('topbar', 'recipes', 'New Recipe', 'recipes/create');
+		Menus.addSubMenuItem('topbar', 'recipes', 'New Recipe', 'recipes/create', '/recipes/create', false);
 	}
 ]);
