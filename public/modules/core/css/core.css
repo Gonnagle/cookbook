@@ -1,6 +1,9 @@
 .content {
 	margin-top: 50px;
 }
+.jumbotron {
+	margin-top: 20px;
+}
 .undecorated-link:hover {
 	text-decoration: none;
 }
