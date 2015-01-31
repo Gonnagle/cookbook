@@ -54,7 +54,7 @@ $ npm install
 Front-end libraries are installed in the similar manner with bower:
 
 ```
-$ npm bower
+$ bower install
 ```
 
 ### Configure environmental variables
