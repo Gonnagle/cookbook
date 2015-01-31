@@ -1,6 +1,8 @@
 'use strict';
 
 // Configuring the Articles module
+
+/* Hide from the menus (TODO: remove Articles completely)
 angular.module('articles').run(['Menus',
 	function(Menus) {
 		// Set top bar menu items
@@ -9,3 +11,4 @@ angular.module('articles').run(['Menus',
 		Menus.addSubMenuItem('topbar', 'articles', 'New Article', 'articles/create');
 	}
 ]);
+*/
