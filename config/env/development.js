@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://localhost:27028/cookbook-dev',
+	db: 'mongodb://localhost:' + ( process.env.MONGODB_PORT || '27017' ) + '/cookbook-dev',
 	app: {
 		title: 'cookbook - Development Environment'
 	},
