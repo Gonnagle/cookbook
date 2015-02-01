@@ -6,7 +6,7 @@ module.exports = {
 		description: 'Web application for documenting, sharing and discovering cooking recipes',
 		keywords: 'Cooking, Recipes, Food, Delicious'
 	},
-	port: process.env.PORT || 37856,
+	port: process.env.PORT || 3000,
 	templateEngine: 'swig',
 	sessionSecret: 'MEAN',
 	sessionCollection: 'sessions',
