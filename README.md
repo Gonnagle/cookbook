@@ -77,6 +77,28 @@ $ grunt
 
 Your application should run on the port you defined so in your browser just go to http://localhost:PORT (for example: [http://localhost:3000](http://localhost:3000))
 
+### Running app as background process with forever
+
+Forever can be used to run the app as a background process. Make sure you have forever installed:
+
+```
+$ npm install -g forever
+```
+
+You can start the server for example by issuing the following command in applications root folder:
+
+```
+$ forever --uid cookbook -w --watchDirectory /var/www/cookbook -a -l /var/logs/cookbook_forever.log -o /var/logs/cookbook_out.log -e /var/logs/cookbook_error.log start server.js
+```
+
+In the example the application is installed at **/var/www/cookbook** and the log-files are saved on **/var/logs**. The process is identified with the uid **cookbook**, the application folder is watched for changes with option **-w** and logs are set to be appended with option **-a**.
+
+If needed, the server can be shut down by issuing the following command:
+
+```
+forever stop cookbook
+```
+
 ## License
 (The MIT License)
 
