@@ -96,7 +96,7 @@ In the example the application is installed at **/var/www/cookbook** and the log
 If needed, the server can be shut down by issuing the following command:
 
 ```
-forever stop cookbook
+$ forever stop cookbook
 ```
 
 ## License
