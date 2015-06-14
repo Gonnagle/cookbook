@@ -16,6 +16,12 @@ var RecipeSchema = new Schema({
 		required: 'Please fill Recipe name',
 		trim: true
 	},
+	ingredients: {
+		type: String,
+		default: '',
+		required: 'Please list the needed ingredients',
+		trim: false
+	},
 	instructions: {
 		type: String,
 		default: '',

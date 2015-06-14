@@ -10,6 +10,7 @@ angular.module('recipes').controller('RecipesController', ['$scope', '$statePara
 			// Create new Recipe object
 			var recipe = new Recipes ({
 				name: this.name,
+				ingredients: this.ingredients,
 				instructions: this.instructions
 			});
 

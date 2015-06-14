@@ -1,7 +1,10 @@
 <section data-ng-controller="RecipesController" data-ng-init="findOne()">
 	<div class="page-header">
 		<h1 data-ng-bind="recipe.name"></h1>
-		<p data-ng-bind="recipe.instructions"></p>
+		<h3>Ingredients</h2>
+		<p class="preserve-line-break" data-ng-bind="recipe.ingredients"></p>
+		<h3>Instructions</h2>
+		<p class="preserve-line-break" data-ng-bind="recipe.instructions"></p>
 	</div>
 	<div class="pull-right" data-ng-show="((authentication.user) && (authentication.user._id == recipe.user._id))">
 		<a class="btn btn-primary" href="/#!/recipes/{{recipe._id}}/edit">
