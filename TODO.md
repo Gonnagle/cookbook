@@ -1,6 +1,6 @@
 - [x] README.md (updated)
 - [x] Use MONGODB_PORT
 - [x] Use PORT
-- [ ] Use DEV_ENV=production (should fix missing LiveReload.js)
+- [x] Use DEV_ENV=production (should fix missing LiveReload.js)
 - [ ] Make login with other social services possible and remove unactivated login methods
 - [ ] Add ingredients (CRUD-module + ingredients of a recipe)
