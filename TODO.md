@@ -2,5 +2,9 @@
 - [x] Use MONGODB_PORT
 - [x] Use PORT
 - [x] Use DEV_ENV=production (should fix missing LiveReload.js)
-- [ ] Make login with other social services possible and remove unactivated login methods
-- [ ] Add ingredients (CRUD-module + ingredients of a recipe)
+- [x] Make login with other social services possible and remove unactivated login methods
+- [x] Add ingredients 
+- [ ] Make ingredient CRUD-module (?)
+- [ ] Make recipes ingredients to use the CRUD-module (list instead of single textfield)
+- [ ] Add a link to github-issues on the frontpage of app
+- [ ] Enable more auth services
