@@ -6,7 +6,7 @@
 - [x] Add ingredients 
 - [ ] Make ingredient CRUD-module (?)
 - [ ] Make recipes ingredients to use the CRUD-module (list instead of single textfield)
-- [ ] Add a link to github-issues on the frontpage of app
+- [x] Add a link to github-issues on the frontpage of app
 - [ ] Enable more auth services
 - [ ] Pictures
 - [ ] Like-button
