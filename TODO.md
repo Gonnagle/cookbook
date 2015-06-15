@@ -8,3 +8,7 @@
 - [ ] Make recipes ingredients to use the CRUD-module (list instead of single textfield)
 - [ ] Add a link to github-issues on the frontpage of app
 - [ ] Enable more auth services
+- [ ] Pictures
+- [ ] Like-button
+- [ ] Favourites
+- [ ] Commenting

@@ -77,6 +77,18 @@ $ grunt
 
 Your application should run on the port you defined so in your browser just go to http://localhost:PORT (for example: [http://localhost:3000](http://localhost:3000))
 
+### Building the app with Grunt
+
+Grunt has a build task that needs to be run in order to start the app in NODE_ENV setting 'production'. Build will create file called application.js and also build and minify other resources that are needed in the production setup.
+
+NOTE: NODE_ENV needs to be set to 'development' when running the build task (otherwise it will not output the file application.js).
+
+Example shell command that sets the environment for the execution only (run this on the root of applications files).
+
+```
+$ (export NODE_ENV=development && grunt build)
+```
+
 ### Running app as background process with forever
 
 Forever can be used to run the app as a background process. Make sure you have forever installed:
